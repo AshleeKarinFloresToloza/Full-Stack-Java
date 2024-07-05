@@ -1,0 +1,60 @@
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.primero{
+    background-color: blue;
+}
+
+.primero img{
+    margin: 5px;
+    padding: 5px;
+    height: 200px;
+}
+
+.segundo{
+    background-color: purple;
+}
+
+.segundo img{
+    margin: 5px;
+    padding: 5px;
+    height: 200px;
+
+}
+
+.tercero{
+    background-color: lightblue;
+}
+
+.tercero img{
+    margin: 5px;
+    padding: 5px;
+    height: 200px;
+}
+
+footer{
+    background-color: rgb(86, 247, 86);
+    width: 1000px;
+}
+
+.fuente{
+    text-align: center;
+}

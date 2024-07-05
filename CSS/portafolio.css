@@ -1,0 +1,10 @@
+*{
+    color: purple;
+}
+h1 {
+    color: blue;
+}
+section {
+    border: 10px;
+    color:rgba(0, 0, 0, 0.418);
+}

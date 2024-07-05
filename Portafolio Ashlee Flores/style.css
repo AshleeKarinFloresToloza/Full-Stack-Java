@@ -1,0 +1,15 @@
+.barraTop{
+    border: 3px solid rgb(0, 0, 0);
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accion{
+    border: none;
+    padding: 10px 100px;
+    background-color: black;
+    color: black;
+}

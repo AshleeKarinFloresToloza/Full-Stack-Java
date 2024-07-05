@@ -1,0 +1,327 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+nav {
+  background-color: #4e4853;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: hsl(256, 100%, 58%);
+}
+
+.cerrarsesion {
+  font-size: 18px; /*18px*/
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: auto;
+  height: auto;
+  justify-content: end;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+button {
+  background-color: #5e3bbd;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  top: -60px;
+  left: 40px;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+main {
+  /* border: 2px solid #851818; */
+  height: 70%;
+  display: flex;
+  gap: 50px;
+  padding: 30px;
+}
+
+.izquierda {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.derecha {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tarjetausuario,
+.educacion,
+.solicitudes,
+.contactos {
+  border-radius: 15px;
+  box-shadow: 2px 4px 8px 3px rgba(0, 0, 0, 0.5);
+}
+
+.tarjetausuario {
+  flex: 2;
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+.user-info h1 {
+  color: hsl(0, 0%, 0%);
+  position: relative;
+  top: -75px;
+  left: 40px;
+  width: 60%;
+}
+
+.user-info h3 {
+  color: #353535;
+  position: relative;
+  top: -75px;
+  left: 40px;
+  width: 60%;
+}
+
+.user-info p {
+  color: #353535;
+  font-size: 19px;
+  position: relative;
+  top: -75px;
+  left: 40px;
+  width: 90%;
+}
+
+.encabezado {
+  background-color: #5e3bbd;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  padding: 30px 30px;
+  height: 100px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: auto;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  position: relative;
+  top: -75px;
+  left: 40px;
+  border: 5px rgb(255, 255, 255) solid;
+}
+
+.user-info button {
+  background-color: #5e3bbd;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  top: -60px;
+  left: 40px;
+}
+
+.user-info button:hover {
+  background-color: #281563;
+}
+
+.educacion {
+  flex: 0; /*de 1 a 0*/
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: left;
+  flex-direction: column;
+  gap: 0px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.educacion h2 {
+  padding-left: 02%;
+}
+.educacion p {
+  font-size: 18px;
+  padding-left: 02%;
+}
+
+.solicitudes {
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  flex-direction: column;
+  gap: 0px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.solicitudes h2 {
+  text-align: center;
+}
+
+.solicitud {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* border: 1px solid hsl(0, 0%, 100%); */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.solicitud img {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.solicitud p {
+  flex: 1;
+  margin: 0;
+  font-size: 19px;
+}
+
+.solicitud a {
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+  transition: color 0.3s;
+}
+
+.solicitud a:hover {
+  color: hwb(255 36% 22%);
+}
+
+.accept-btn,
+.reject-btn {
+  color: #fff;
+  border: none;
+  padding: 16px 20px;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.accept-btn {
+  background-color: #26bd00;
+}
+
+.reject-btn {
+  background-color: hwb(0 0% 0%);
+}
+
+.accept-btn:hover {
+  background-color: hsl(258, 100%, 50%);
+}
+
+.reject-btn:hover {
+  background-color: hwb(0 0% 100%);
+}
+.contactos {
+  flex: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  flex-direction: column;
+  gap: 0px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.contactos h2 {
+  text-align: center;
+}
+
+.contacto img {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.contacto {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid hsl(0, 0%, 100%);
+  padding: 0px;
+  border-radius: 5px;
+}
+
+.contacto p {
+  margin: 0;
+  font-size: 19px;
+}
+
+.contacto a {
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+  transition: color 0.3s;
+}
+
+.contacto a:hover {
+  color: hwb(255 36% 22%);
+}
+

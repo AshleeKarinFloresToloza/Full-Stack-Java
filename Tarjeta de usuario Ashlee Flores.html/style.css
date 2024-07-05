@@ -1,0 +1,67 @@
+.perfil{
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-info h1{
+    color:hsl(0, 0%, 0%);
+    position: relative;
+    top: -75px;
+    left: 40px;
+    width: 60%;
+}
+
+.user-info h3{
+    color:#353535;
+    position: relative;
+    top: -75px;
+    left: 40px;
+    width: 60%;
+}
+
+.user-info p{
+    color:#353535;
+    position: relative;
+    top: -75px;
+    left: 40px;
+    width: 60%;
+}
+
+header{
+    background-color: #5e3bbd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    height: 100px;
+    width: 60%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+    top: -75px;
+    left: 40px;
+    border: 5px rgb(255, 255, 255) solid;
+}
+
+button {
+    background-color: #5e3bbd;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    top: -60px;
+    left: 40px;
+}
+
+button:hover {
+    background-color: #281563;
+}

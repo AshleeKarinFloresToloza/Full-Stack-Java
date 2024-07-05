@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ser Aventurero</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">SerAventurero</div>
+      <nav class="nav">
+        <a href="#">Inicio</a>
+        <a href="#">Perfil</a>
+        <a href="#">Amigos</a>
+        <a href="#">Cerrar Sesión</a>
+      </nav>
+    </header>
+    <main class="main-content">
+      <div class="column">
+        <h3>Únete a la comunidad!</h3>
+        <form action="#" method="POST">
+        <div class="form-section">
+            <label for="nombre">Nombre:</label>
+            <input
+            type="text"
+            id="nombre"
+            name="nombre" />
+        </div>
+
+        <div class="form-section">
+            <label for="apellido">Apellido:</label>
+            <input
+            type="text"
+            id="apellido"
+            name="apellido" />
+        </div>
+
+        <div class="form-section">
+            <label for="email">Correo Electrónico:</label>
+            <input
+            type="email"
+            id="email"
+            name="email" />
+        </div>
+
+        <div class="form-section">
+            <label for="clave">Contraseña:</label>
+            <input
+            type="password"
+            id="clave"
+            name="clave" />
+        </div>
+
+        <div class="form-section">
+            <label for="confirmar_contrasena">Confirmar Contraseña:</label>
+            <input
+            type="password"
+            id="confirmar_contrasena"
+            name="confirmar_contrasena"
+            />
+        </div>
+
+        <div class="form-section">
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input
+            type="date"
+            id="fecha_nacimiento"
+            name="fecha_nacimiento" />
+        </div>
+
+        <div class="form-section">
+            <label>Género:</label>
+            <div class="gender-options">
+            <input type="radio" id="masculino" name="genero" value="masculino" />
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino" />
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="otro" name="genero" value="otro" />
+            <label for="otro">Otro</label>
+            </div>
+        </div>
+
+        <div class="form-section newsletter-option">
+            <input
+            type="checkbox"
+            id="suscrito"
+            name="suscrito" />
+            <label for="suscrito">Suscríbete a nuestro boletín de anuncios</label>
+        </div>
+
+        <div class="form-section">
+            <label for="descripcion">Una descripción de ti mismo:</label>
+            <textarea
+            id="descripcion"
+            name="descripcion"
+            rows="4"
+            cols="30"
+            ></textarea>
+        </div>
+
+        <div class="form-section">
+            <label for="intereses">Preferencia:</label>
+            <select id="intereses" name="intereses">
+            <option value="musica">Héroe</option>
+            <option value="deportes">Mentor</option>
+            <option value="viajes">Anti héroe</option>
+            <option value="tecnologia">Aprendiz</option>
+            </select>
+        </div>
+
+        <div class="form-section">
+            <button type="submit">¡Registrarse!</button>
+        </div>
+        </form>
+      </div>
+      <div class="column">
+        <section class="characters">
+            <h3>Tipos de Personajes</h3>
+            <div class="character-card">
+                <h4>Héroe</h4>
+                <p>El protagonista positivo de la historia, valiente y ético.</p>
+                <p>Ejemplo: Harry Potter en "Harry Potter".</p>
+                <p>Función: Representar el ideal de justicia y valor.</p>
+            </div>
+            <div class="character-card">
+                <h4>Anti-Héroe</h4>
+                <p>Un protagonista con cualidades ambiguas y defectuosas.</p>
+                <p>Ejemplo: Deadpool en "Deadpool".</p>
+                <p>Función: Ofrecer una perspectiva compleja sobre el bien y el mal.</p>
+            </div>
+            <div class="character-card">
+                <h4>Mentor</h4>
+                <p>Un personaje sabio que guía y aconseja al héroe.</p>
+                <p>Ejemplo: Gandalf en "El Señor de los Anillos".</p>
+                <p>Función: Proporcionar sabiduría y apoyo al héroe.</p>
+            </div>
+      </div>
+      <div class="column flex-container">
+        <div class="gato-section">
+          <img src="pusheencat.png" alt="Gato Motivador" class="gato-img" />
+          <div class="dialogo">
+            ¡Hola aventurero! ¿Has recargado tu poder de habilidad? Yo sí, con
+            pescagalletas miau!!!
+          </div>
+        </div>
+        <div class="historia-section">
+          <h2>Título de la Historia</h2>
+          <p>Descripción de la historia o información...</p>
+          <textarea placeholder="Escribe aquí tu historia..."></textarea>
+        </div>
+      </div>
+      <div class="column"></div>
+      <div class="column"></div>
+    </main>
+    <script>
+      function recargarHabilidad() {
+        alert("¡Tiempo de hacer algunos ejercicios creativos!");
+        // Redirigir a una página de actividades creativas
+        window.location.href = "pagina-de-actividades-creativas.html";
+      }
+
+      function obtenerPescagalletas() {
+        alert("¡Aquí tienes algunas pescagalletas para tu inspiración!");
+        // Mostrar lista de recompensas o recursos
+        window.location.href = "pagina-de-recompensas.html";
+      }
+    </script>
+  </body>
+</html>

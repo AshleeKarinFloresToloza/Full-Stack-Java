@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+.main-content {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    gap: 10px;
+}
+
+.column {
+    flex: 1;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.flex-container {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gato-section, .historia-section {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    position: relative;
+}
+
+.gato-img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.dialogo {
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dialogo::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+    transform: translateX(-50%);
+}
+
+.historia-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.historia-section p {
+    margin-bottom: 10px;
+}
+
+.historia-section textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

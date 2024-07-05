@@ -1,0 +1,20 @@
+p {
+    text-align: left; 
+    text-align: center; 
+    text-align: right; 
+    
+    }
+a {
+
+    text-decoration: underline; 
+    font-style: italic;
+    text-decoration: line-through; 
+    text-decoration: none; 
+    }
+h1 {
+    font-weight: bold;
+    }
+
+body {
+    font-family: sans-serif;
+    }

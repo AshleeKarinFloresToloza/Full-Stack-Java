@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+}
+
+div{
+    border: 2px red solid;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 75px;
+    padding-left: 100px;
+}
+
+/*Borderbox */
+#borderbox {
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    border: 10px solid black;
+    padding: 30px;
+}
+
+/*Colores*/
+p{
+    color: brown;
+    border: 3px blue;
+}
+a{
+    color: violet;
+}
+button{
+    height: 50px;
+    color: color rgb(60, 45, 75);
+    background-color: aquamarine;
+
+}
+#fix{
+    color: blueviolet;
+    text-align: center;
+    text-align text-align-last: ;
+}
+

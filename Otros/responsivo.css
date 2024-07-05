@@ -1,0 +1,44 @@
+body {
+    margin: 2%;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: hsl(0, 100%, 69%);
+    text-align: center;
+    padding: 10px 0;
+}
+
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.bloque {
+    flex: 1 1 45%;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #90b3ff;
+    width: 100%;
+}
+
+.bloque1 {
+    background-color: rgb(207, 0, 128);
+}
+
+.bloque2 {
+    background-color: lightcoral;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .bloque {
+        flex: 1 1 100%;
+        margin: 5px 0;
+    }
+}

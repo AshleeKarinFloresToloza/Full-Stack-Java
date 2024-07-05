@@ -1,0 +1,21 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+
+.padre {
+        border: 5px solid black;
+        margin-top: 50px;
+}
+
+div{
+
+    padding-top: 25px;
+  
+    padding-right: 50px;
+  
+    padding-bottom: 75px;
+  
+    padding-left: 100px;
+  
+  }
