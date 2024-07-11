@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+  font-family: Arial, Helvetica, sans-serif; 
+  text-align: left;
+}
+
+nav {
+  background-color: #d3d3d3;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+  padding-left: 10px;
+}
+
+/* .busqueda{
+        margin-top: 20px;
+        height: 30px;
+        width: 70%;
+        
+    }
+
+    input#buscar{
+        width: 40%;
+        border: none;
+    } */
+
+.busqueda input#buscar {
+  width: 400%;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  position: relative;
+  left: -275px;
+}
+
+.sesionbutton button {
+  width: 108px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: #1e90ff;
+  color: aliceblue;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  /*transition: background-color 0.3s ease; //VA A LA MANO CON BOTON HOVER*/ 
+}
+/*
+#botoninicio:hover{
+  background-color: hsl(266, 50%, 44%); //PARA CAMBIAR COLOR CURSOR SOBRE EL BOTON
+}*/
+
+main {
+  height: 70%;
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+
+section {
+  height: 500px;
+  width: 300px;
+}
+
+.izquierda {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.derecha {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.definition1,
+.definition2,
+.newdefinition {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.definition1 {
+  flex: 5;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.definition1 h2, p{
+  padding: 10px;
+}
+
+.definition2 {
+  flex: 5;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.definition2 h2, p{
+    padding: 10px;
+}
+
+#likegato{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #FFFFCC;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+}
+
+#likeperro{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #FFFFCC;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+}
+
+.newdefinition {
+  padding: 15px;
+}
+
+.newdefinition p{
+    padding-bottom: 10px;
+}
+
+#agregar {
+  width: 250px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: #008000;
+  color: aliceblue;
+  cursor: pointer;
+  position: relative;
+  left: 10px;
+  text-align: center;
+}
